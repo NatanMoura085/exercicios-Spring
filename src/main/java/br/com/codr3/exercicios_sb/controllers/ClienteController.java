@@ -1,11 +1,12 @@
 package br.com.codr3.exercicios_sb.controllers;
 
-import br.com.codr3.exercicios_sb.models.Cliente;
+import br.com.codr3.exercicios_sb.model.entities.Cliente;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("Cliente")
 public class ClienteController {
+
 
     @GetMapping("clients")
     public Cliente getClients(){

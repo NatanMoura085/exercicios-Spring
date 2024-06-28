@@ -1,4 +1,4 @@
-package br.com.codr3.exercicios_sb.models;
+package br.com.codr3.exercicios_sb.model.entities;
 
 public class Cliente {
     private Long id;
